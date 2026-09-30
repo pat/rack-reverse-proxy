@@ -7,6 +7,8 @@ rubocop_platform = [:ruby_20, :ruby_21, :ruby_22, :ruby_23, :ruby_24]
 rubocop_platform = [:ruby_20, :ruby_21] if ruby_version < 2.0
 
 group :test do
+  gem "base64"
+  gem "cgi"
   gem "rspec"
   gem "rack-test"
   gem "webmock"
