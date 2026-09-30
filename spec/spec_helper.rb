@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Code coverage
 require "simplecov"
 SimpleCov.start
