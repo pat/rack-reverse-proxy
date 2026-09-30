@@ -36,7 +36,7 @@ eos
   spec.require_paths = ["lib"]
 
   spec.add_dependency "rack", ">= 1.0.0"
-  spec.add_dependency "rack-proxy", "~> 0.7", ">= 0.7.0"
+  spec.add_dependency "rack-proxy", ">= 0.7.0", "< 2"
 
   spec.add_development_dependency "bundler", "~> 2.5"
   spec.add_development_dependency "rake", "~> 13.2"
